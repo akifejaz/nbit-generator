@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
 
    //-h means help
 
-   if(argc!=7 || strcmp(argv[1],"-h")){
+   if(argc!=7 || strcmp(argv[1],"-h")==0){
     printf("Usage: ./main -b <number of bits> -n <num of locations> -o <output file>");
     return -1;
    }

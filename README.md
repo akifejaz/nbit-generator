@@ -7,7 +7,7 @@ This simple C++ program simply creates binary numbers of given bits length. You 
 ```makefile
 cd nbit-generator
 gcc nbit-generator.cpp -o main
-./main -b <number of bits> -n <num of locations> -o <output file>
+./main -b <number of bits> -n <num/count of binary nums> -o <output file>
 ```
 
 
